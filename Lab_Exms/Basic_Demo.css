@@ -1,0 +1,45 @@
+.box{
+    background-color: yellow;
+}
+form .btn{
+    margin-left: 50%;
+    text-align: center;
+}
+.hero-image{
+    background-image: url("benz.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-text{
+    padding: 20px;
+    text-align: center;
+
+}
+
+.containeer{
+    background: red;
+    border: 1px solid black;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.items{
+    flex-basis: 23%;
+    box-shadow: 0px 0px 10px 3px lightgray;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.items h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.items p{
+    padding: 10px;
+}
